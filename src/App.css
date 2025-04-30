@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 10% 20px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  input,
+  button {
+    font-size: 0.95rem;
+  }
+
+  .result {
+    font-size: 1rem;
+  }
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+}
+
+.ad-top,
+.ad-bottom {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.ad-left,
+.ad-right {
+  width: 120px;
+  padding: 10px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.adsbygoogle {
+  display: block;
+  margin: 0 auto;
+}
